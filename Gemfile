@@ -12,16 +12,16 @@ gem 'pg'
 # in production environments by default.
 group :assets do
 
-  gem 'coffee-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.0.1'
   
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 3.1.2'
 
-gem 'sass-rails', '>=4.0.0'
+gem 'sass-rails', '>= 5.0.1'
 gem 'bootstrap-sass', '~> 3.1.0'
 
 gem 'rails_12factor', group: :production
@@ -31,7 +31,7 @@ gem 'nokogiri'
 gem 'chronic'
 
 #this mimics the rails 3 syntax, fix that and remove this at some point.
-gem 'protected_attributes'
+gem 'protected_attributes', '>= 1.0.8'
 
 
 # To use ActiveModel has_secure_password
