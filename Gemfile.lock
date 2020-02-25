@@ -50,11 +50,11 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    mini_portile (0.6.2)
+    mini_portile2 (2.4.0)
     minitest (4.7.5)
     multi_json (1.10.1)
-    nokogiri (1.6.5)
-      mini_portile (~> 0.6.0)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
     pg (0.18.1)
     polyglot (0.3.5)
     protected_attributes (1.0.8)
@@ -120,7 +120,7 @@ DEPENDENCIES
   chronic
   coffee-rails (~> 4.0.0)
   jquery-rails
-  nokogiri
+  nokogiri (>= 1.10.8)
   pg
   protected_attributes
   rails (= 4.0.2)
@@ -128,3 +128,6 @@ DEPENDENCIES
   sass-rails (>= 4.0.0)
   therubyracer
   uglifier (>= 1.0.3)
+
+BUNDLED WITH
+   1.17.3
