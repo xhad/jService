@@ -27,7 +27,7 @@ gem 'bootstrap-sass', '~> 3.1.0'
 gem 'rails_12factor', group: :production
 
 #for scraping
-gem 'nokogiri'	
+gem 'nokogiri'	, '>= 1.11.0'
 gem 'chronic'
 
 #this mimics the rails 3 syntax, fix that and remove this at some point.
