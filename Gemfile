@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.0.2'
+gem 'rails', '6.0.3.5'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -12,16 +12,16 @@ gem 'pg'
 # in production environments by default.
 group :assets do
 
-  gem 'coffee-rails', '~> 4.0.0'
+  gem 'coffee-rails', '~> 4.2.2'
   
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
-gem 'sass-rails', '>=4.0.0'
+gem 'sass-rails', '>= 5.0.8'
 gem 'bootstrap-sass', '~> 3.1.0'
 
 gem 'rails_12factor', group: :production
